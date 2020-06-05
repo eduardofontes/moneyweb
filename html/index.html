@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <title>MyMoney</title>
+  <link rel="stylesheet" href="/css/mymoney.css">
+  <script src="/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="/js/mymoney.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <ul class="menu-bar">
+        <li><a href="#">Arquivo</a>
+          <ul class="sub-menu-1">
+            <li><a href="#">Novo<div class="arrow-right"></div></a>
+              <ul class="sub-menu-2">
+                <li><a href="#">Nova conta...</a></li>
+                <li><a href="#">Novo arquivo...</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Abrir...</a></li>
+            <li><a href="#">Converter Arquivo Quicken...</a></li>
+            <li class="divisor"><div></div></li>
+            <li><a href="#">Gerenciador de Senhas</a></li>
+            <li class="divisor"><div></div></li>
+            <li><a href="#">Backup...</a></li>
+            <li><a href="#">Restaurar Backup...</a></li>
+            <li><a href="#">Arquivar...</a></li>
+            <li class="divisor"><div></div></li>
+            <li><a href="#">Reparar Arquivo MyMoney<div class="arrow-right"></div></a>
+              <ul class="sub-menu-2">
+                <li><a href="#">Reparação Rápida do Arquivo</a></li>
+                <li><a href="#">Reparação Padrão do Arquivo</a></li>
+                <li><a href="#">Remover todos os dados de Pagamentos</a></li>
+              </ul>
+            </li>
+            <li class="divisor"><div></div></li>
+            <li><a href="#">Importar...</a></li>
+            <li class="divisor"><div></div></li>
+            <li><a href="#">Exportar para Software de Taxas...</a></li>
+            <li><a href="#">Exportar...</a></li>
+            <li class="divisor"><div></div></li>
+            <li><a href="#">Configurar Impressão</a></li>
+            <li><a href="#">Visualizar Impressão</a></li>
+            <li><a href="#">Imprimir Cheques...</a></li>
+            <li><a href="#">Imprimir...</a></li>
+            <li class="divisor"><div></div></li>
+            <li><a href="#">Enviar para</a></li>
+            <li class="divisor"><div></div></li>
+            <li><a href="#">Fechar</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Editar</a>
+          <ul class="sub-menu-1">
+            <li><a href="#">Desfazer</a></li>
+            <li class="divisor"></li>
+            <li><a href="#">Recortar</a></li>
+            <li><a href="#">Copiar</a></li>
+            <li><a href="#">Colar</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Favoritos</a></li>
+        <li><a href="#">Ferramentas</a></li>
+        <li><a href="#">Ajuda</a></li>
+      </ul>
+    </nav>
+    <nav>
+      <ul class="breadcrumb">
+        <li><a href="#">Contas</a></li>
+        <li class="bc-div">&raquo;</li>
+        <li><a href="#">Conta: BB - CC</a></li>
+        <li class="bc-div">&raquo;</li>
+        <li><a href="#">Conta: Carteira</a></li>
+        <li class="bc-div">&raquo;</li>
+        <li><a href="#">Agendamentos</a></li>
+        <li class="bc-div">&raquo;</li>
+        <li><a href="#">Conta: BB - Poupança</a></li>
+      </ul>
+    </nav>
+    <nav>
+      <ul class="abas">
+        <li><a href="#">Principal</a></li>
+        <li class="selecionada"><a href="#">Contas</a></li>
+        <li><a href="#">Agendamentos</a></li>
+        <li><a href="#">Relatórios</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="corpo">
+    <div class="menu-lateral">
+      <h5>05 de abril de 2020</h5>
+      <nav>
+        <ul>
+          <li><h5>Tarefas comuns</h5></li>
+          <li class="divisor2"></li>
+          <li><a href="#">Nova conta</a></li>
+          <li><a href="#">Ord. lista de contas por<div class="arrow-right"></div></a>
+            <ul class="sub-menu-2">
+              <li><a href="#">Normal</a></li>
+              <li><a href="#">Account name</a></li>
+              <li><a href="#">Account type</a></li>
+              <li><a href="#">Bank or broker name<div class="mark">&bullet;</div></a></li>
+              <li><a href="#">Favorites first</a></li>
+              <li><a href="#">Investment accounts</a></li>
+              <li class="divisor"><div></div></li>
+              <li><a href="#">Hide closed accounts<div class="mark">&check;</div></a></li>
+              <li><a href="#">Show account numbers</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Mudar detalhes da conta<div class="arrow-right"></div></a>
+            <ul class="sub-menu-2">
+              <li><a href="#">Normal</a></li>
+              <li><a href="#">Account name</a></li>
+              <li><a href="#">Account type</a></li>
+              <li><a href="#">Bank or broker name<div class="mark">&bullet;</div></a></li>
+              <li><a href="#">Favorites first</a></li>
+              <li><a href="#">Investment accounts</a></li>
+              <li class="divisor"></li>
+              <li><a href="#">Hide closed accounts<div class="mark">&check;</div></a></li>
+              <li><a href="#">Show account numbers</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Atualizar agora</a></li>
+          <li><a href="#">Gerenciar serviços on-line</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <li><h5>Outras tarefas</h5></li>
+          <li class="divisor2"></li>
+          <li><a href="#">Juntar contas</a></li>
+          <li><a href="#">Juntar contas</a></li>
+          <li><a href="#">Juntar contas</a></li>
+          <li><a href="#">Juntar contas</a></li>
+          <li><a href="#">Juntar contas</a></li>
+          <li><a href="#">Juntar contas contas contas</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <li><h5>Links Relacionados</h5></li>
+          <li class="divisor2"></li>
+          <li><a href="#">Juntar contas</a></li>
+          <li><a href="#">Juntar contas contas contas</a></li>
+          <li><a href="#">Juntar contas</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="conteudo">
+      <!-- Banking -->
+      <!-- <div class="contas">
+        <h1>Account list</h1>
+        <p class="instructions">Click the account you want to use. Totals are displayed in Brazilian real.</p>
+        <div class="tab-title"><div>Accounts</div></div>
+        <div class="tab-group">
+          <div class="column-names">
+            <span><a href="#">Account</a></span>
+            <span><a href="#">Adj. Balance</a></span>
+          </div>
+          <div class="groups">
+            <div>
+              <div>ABC</div>
+              <ul>
+                <li><a href="#">ABC LCA</a></li>
+                <li>R$ 7.119,23</li>
+              </ul>
+              <ul>
+                <li><a href="#">ABC TD</a></li>
+                <li>R$ 9.468,97</li>
+              </ul>
+              <div>Subtotal: <span>R$ 16.588,20</span></div>
+            </div>
+            <div>
+              <div>Banco do Brasil</div>
+              <ul>
+                <li><a href="#">BB - Petro - CC</a></li>
+                <li class="red">-R$ 15.284,78</li>
+              </ul>
+              <div>Subtotal: <span class="red">-R$ 15.284,78</span></div>
+            </div>
+          </div groups>
+        </div tab-group>
+        <div class="tab-summary">Total Account Balance: <span>R$ 247.911,75</span></div>
+      </div contas> -->
+
+
+      <!-- Bills -->
+      <div class="bills">
+        <h1>Bills summary</h1>
+        <p class="instructions">To setup a new scheduled transaction, click <b>New</b>. To pay existing transactions, select the bills<br/>
+                                you want to pay, and then  click <b>Pay Online</b>.</p>
+        <div class="tab-title">
+          <div class="column-names">
+            <span><a href="#">Payee</a></span>
+            <span><a href="#">Amount</a></span>
+            <span><a href="#">Due date</a></span>
+            <span><a href="#">Frequency</a></span>
+            <span><a href="#">Payment method</a></span>
+          </div>
+        </div tab-title>
+        <div class="tab-group">
+          <div class="tab-content">
+            <div>
+              <span>Eduardo</span>
+              <span>R$ 161,07</span>
+              <span>24/05/2020</span>
+              <span>Weekly</span>
+              <span>Direct Deposit</span>
+            </div>
+            <div>
+              <span>NuBank Mastercad</span>
+              <span class="red">-R$ 83,57</span>
+              <span>01/06/2020</span>
+              <span>Monthly</span>
+              <span>Write Check</span>
+            </div>
+            <div>
+              <span>Eduardo</span>
+              <span>R$ 161,07</span>
+              <span>24/05/2020</span>
+              <span>Weekly</span>
+              <span>Direct Deposit</span>
+            </div>
+            <div>
+              <span>NuBank Mastercad</span>
+              <span class="red">-R$ 83,57</span>
+              <span>01/06/2020</span>
+              <span>Monthly</span>
+              <span>Write Check</span>
+            </div>
+            <div>
+              <span>Eduardo</span>
+              <span>R$ 161,07</span>
+              <span>24/05/2020</span>
+              <span>Weekly</span>
+              <span>Direct Deposit</span>
+            </div>
+            <div>
+              <span>NuBank Mastercad</span>
+              <span class="red">-R$ 83,57</span>
+              <span>01/06/2020</span>
+              <span>Monthly</span>
+              <span>Write Check</span>
+            </div>
+            <div>
+              <span>Eduardo</span>
+              <span>R$ 161,07</span>
+              <span>24/05/2020</span>
+              <span>Weekly</span>
+              <span>Direct Deposit</span>
+            </div>
+            <div>
+              <span>NuBank Mastercad</span>
+              <span class="red">-R$ 83,57</span>
+              <span>01/06/2020</span>
+              <span>Monthly</span>
+              <span>Write Check</span>
+            </div>
+            <div>
+              <span>Eduardo</span>
+              <span>R$ 161,07</span>
+              <span>24/05/2020</span>
+              <span>Weekly</span>
+              <span>Direct Deposit</span>
+            </div>
+            <div>
+              <span>NuBank Mastercad</span>
+              <span class="red">-R$ 83,57</span>
+              <span>01/06/2020</span>
+              <span>Monthly</span>
+              <span>Write Check</span>
+            </div>
+            <div>
+              <span>Eduardo</span>
+              <span>R$ 161,07</span>
+              <span>24/05/2020</span>
+              <span>Weekly</span>
+              <span>Direct Deposit</span>
+            </div>
+            <div>
+              <span>NuBank Mastercad</span>
+              <span class="red">-R$ 83,57</span>
+              <span>01/06/2020</span>
+              <span>Monthly</span>
+              <span>Write Check</span>
+            </div>
+            <div>
+              <span>Eduardo</span>
+              <span>R$ 161,07</span>
+              <span>24/05/2020</span>
+              <span>Weekly</span>
+              <span>Direct Deposit</span>
+            </div>
+            <div>
+              <span>NuBank Mastercad</span>
+              <span class="red">-R$ 83,57</span>
+              <span>01/06/2020</span>
+              <span>Monthly</span>
+              <span>Write Check</span>
+            </div>
+            <div>
+              <span>Eduardo</span>
+              <span>R$ 161,07</span>
+              <span>24/05/2020</span>
+              <span>Weekly</span>
+              <span>Direct Deposit</span>
+            </div>
+            <div>
+              <span>NuBank Mastercad</span>
+              <span class="red">-R$ 83,57</span>
+              <span>01/06/2020</span>
+              <span>Monthly</span>
+              <span>Write Check</span>
+            </div>
+          </div tab-content>
+        </div tab-group>
+        <div class="tab-footer">
+          <div class="sections">
+            <span>Eduardo balance:</span>
+            <span>Current:</span>
+            <span class="red">-R$ 36,32</span>
+            <span>After: </span>
+            <span>R$ 124,75</span>
+          </div>
+        </div tab-footer>
+        <div class="tab-buttons">
+          <button>Enter in Register...</button>
+          <button disabled="disabled">Pay Online</button>
+          <button>New</button>
+          <button>Edit</button>
+          <button>Skip...</button>
+          <button>Delete</button>
+        </div tab-buttons>
+      </div bills>
+
+    </div>
+  </section>
+</body>
+
+</html>
